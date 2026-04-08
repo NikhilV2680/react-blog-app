@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import CommentForm from "../components/CommentForm";
-import CommentSection from "../components/CommentSection";
+import CommentForm from "./CommentForm";
+import CommentSection from "./CommentSection";
 
 function IndividualPostPage() {
   const { postId } = useParams();
