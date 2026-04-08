@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import BlogPostsPage from "./pages/BlogPostsPage";
-import IndividualPostPage from "./pages/IndividualPostPage";
-import ContactPage from "./pages/ContactPage";
+import Navbar from "./Navbar";
+import BlogPostsPage from "./BlogPostsPage";
+import IndividualPostPage from "./IndividualPostPage";
+import ContactPage from "./ContactPage";
 
 function App() {
   return (
